@@ -13,18 +13,13 @@ import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
-/**
- *
- * @author Caranyagan
- */
-public class Login extends Application {
+public class Main extends Application {
     
     @Override
     public void start(Stage primaryStage) {
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("LoginFXML.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("DashboardFXML.fxml"));
             Parent root = loader.load();
-            primaryStage.setTitle("JavaFX FXML Example");
             primaryStage.setScene(new Scene(root));
             primaryStage.show();
         } catch (Exception e) {
@@ -32,9 +27,6 @@ public class Login extends Application {
         }
     }
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         launch(args);
     }

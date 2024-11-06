@@ -1,0 +1,51 @@
+.header {
+    -fx-font-color: #81b29a;
+    -fx-stroke: #382513;
+    -fx-stroke-width: 2px;
+}
+
+.register-field {
+    -fx-border-width: 1px;
+    -fx-border-color: #555555;
+}
+
+.green-btn {
+    -fx-background-color: #81b29a;
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+}
+
+.green-btn:hover {
+    -fx-background-color: #5D987B;
+}
+
+.red-btn {
+    -fx-background-color: #e07a5f;
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+}
+
+.red-btn:hover {
+    -fx-background-color: #D85531;
+}
+
+.blue-btn {
+    -fx-background-color: #3d405b;
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+}
+
+.grade-dropdown {
+    -fx-padding: 5px 15px;
+    -fx-background-color: #ffffff;
+    -fx-border-width: 2px;
+    -fx-border-color: #333333;
+    -fx-border: none;
+    -fx-font-family: Raleway;
+    -fx-font-size: 16px;
+}
+
+.settings-btn {
+    -fx-background: none;
+    -fx-background-color: none;
+}
